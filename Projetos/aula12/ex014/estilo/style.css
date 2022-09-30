@@ -18,6 +18,7 @@ header > h1 {
     font-size: 1.6em;
 }
 section {
+    position: relative;
     width: 300px;
     height: 400px;
     margin: auto;
@@ -26,8 +27,21 @@ section {
     border-radius: 10px;
     box-shadow: 13px black;
 }
-section > div {
+section > div#msg{
+    color: black
+}
+section > div#foto {
+    margin-top: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: black;
+
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
 }
 
 footer{
