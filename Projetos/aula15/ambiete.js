@@ -12,3 +12,6 @@ num.length
 
 //COLOCA TODOS OS ELEMENTOS EM ORDEM CRESCENTE
 num.sort()
+
+//MOSTRAR O CONTEÚDO PELA POSIÇÃO(INDICE)
+console.log(`O primeiro valor do vetor é ${num[0]}`)

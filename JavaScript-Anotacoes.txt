@@ -12,9 +12,9 @@ Condições em JS
 ==================================================================
 MÓDULO E
 Estrutura de Repetição
----------------------------------
-|Repetições com teste no inicio |
----------------------------------
+--------------------------------
+Repetições com teste no inicio 
+--------------------------------
 var c = 1
 while (c <= 6)
 {
@@ -22,9 +22,9 @@ while (c <= 6)
     c ++
 }
 
----------------------------------
-|Repetições com teste no fim    |
----------------------------------
+--------------------------------
+Repetições com teste no fim    
+--------------------------------
 do
 {
     console.log(`Passo ${c}`)
@@ -32,9 +32,9 @@ do
 }
 while(c <= 6)
 
----------------------------------
-|Repetições com controle        |
----------------------------------
+--------------------------------
+Repetições com controle        
+--------------------------------
 //for (repetição com controle)
 //for(inicio;teste;incremento)
 for(var c=1; c<=10; c++)
@@ -43,9 +43,50 @@ for(var c=1; c<=10; c++)
 } 
 ==================================================================
 MÓDULO F
+--------------------------------
+Variáveis Simples
+--------------------------------
+Só consegue armazenar UM VALOR por vez.
 
-Variáveis Compostas
 
+--------------------------------
+Variáveis Compostas		
+--------------------------------
+Dever ser capazes de armazenar VÁRIOS VALORES em uma mesma estrutra;
+
+var ou let = a []
+
+1 - Array(Vetor)
+2 - Elementos
+3 - Indice (chave)
+4 - Conteúdo(valor)
+
+OBS: Um array(vetor/variável composta) é uma variável que tem varios elementos, cada elemento é composto por um valor e uma chave de identificação;
+
+
+//CRIA UM ARRAY
+let num = [5,8,4]
+
+//ADICIONA O CONTEÚDO 6 NO INDICE 3
+num[3] = 6
+
+//ADICIONA O CONTEUDO 7 DEPOIS DO ULTIMO ELEMENTO
+num.push(7)
+
+//DESCOBRIR O COMPRIMENTO DO ARRAY
+num.length
+
+//COLOCA TODOS OS ELEMENTOS EM ORDEM CRESCENTE
+num.sort()
+
+
+--------------------------------
 Uso de Funções e Eventos
+--------------------------------
 
+
+
+
+--------------------------------
 Passagem de Parâmentros
+--------------------------------
