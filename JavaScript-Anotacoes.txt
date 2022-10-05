@@ -79,14 +79,60 @@ num.length
 //COLOCA TODOS OS ELEMENTOS EM ORDEM CRESCENTE
 num.sort()
 
+//MOSTRAR O CONTEÚDO PELA POSIÇÃO(INDICE)
+console.log(`O primeiro valor do vetor é ${num[0]}`)
+
+//MOSTRAR O CONTEÚDO PELA POSIÇÃO(INDICE) USANDO LOOP DE REPETIÇÃO FOR.
+for(var pos = 0; pos < num.length; pos ++)
+{
+    console.log(`A posição ${pos} tem o valor ${num[pos]}`)
+}
+
+//USADO NAS VERSÕES ATUAIS DO JavaScript ECMAScript(OBS: FUNCIONA SOMENTE EM ARRAY)
+for(var pos in num)
+{
+    console.log(`A posição ${pos} tem o valor ${num[pos]}`)
+}
+
+//RETORNA O INDICE DO VALOR INFORMADO DENTRO DO VETOR (OBS: SE RETORNA -1 É PORQUE NÃO ENCONTRO NENHUM VALOR INFORMADO)
+var pos = num.indexOf(7)
+if(pos == -1)
+{
+    console.log('O valor não foi encontrado!')
+}
+else
+{
+    console.log(`O valor esta na posição: ${pos}`)
+}
+
 
 --------------------------------
 Uso de Funções e Eventos
 --------------------------------
+FUNÇÕES: São AÇÕES executadas assim que são CHAMADAS ou em decorrência de algum EVENTO.
+Todas funções pode te uma CHAMADA, PARÂMETRO, AÇÃO E RETORNO;
+
+function acao(param)
+{
+	return res	
+}
+acao(5) //CHAMADA
+
+function parimpa(n)
+{
+	if(n%2==0)
+	{
+		return 'par'
+	}
+	else
+	{
+		return 'impar'
+	}
+}
+var res = parimpar(11)
 
 
-
-
+OBS: UMA FUNÇÃO EM JavaScript SÓ TEM UM RETORNO
 --------------------------------
 Passagem de Parâmentros
 --------------------------------
