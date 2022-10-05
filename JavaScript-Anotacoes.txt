@@ -134,5 +134,33 @@ var res = parimpar(11)
 
 OBS: UMA FUNÇÃO EM JavaScript SÓ TEM UM RETORNO
 --------------------------------
-Passagem de Parâmentros
---------------------------------
+Objeto
+--------------------------------7
+let amigo = {nome:"José", sexo:"M", peso:85.4, engorda(p){}}
+
+
+OBS: OBJETOS PODE ARMAZENAR QUALQUER TIPO DE ELEMENTO, NUMBER, STRING, FUNCTION
+
+
+
+
+
+
+
+
+
+
+
+
+
+DAQUI PRA FRENTE...
+
+function
+objetos
+modularização
+RexEx (expressão regular)
+JSON
+Ajax
+NodeJS
+VueJS
+
